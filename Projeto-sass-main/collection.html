@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Sass</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <header class="header">
+        <figure class="header__logo">
+            <img src="assets/img/logo.png" alt="Logo" class="header__img">
+        </figure>
+        <nav class="header__menu menu">
+            <ul class="menu__list">
+                <li class="menu__links"><a href="index.html" class="menu__link">Página inicial</a></li>
+                <li class="menu__links"><a href="about.html" class="menu__link">Sobre nós</a></li>
+                <li class="menu__links"><a href="collection.html" class="menu__link">Vídeos</a></li>
+                <li class="menu__links"><a href="collection.html" class="menu__link">Parceiros</a></li>
+                <li class="menu__links"><a href="contact.html" class="menu__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="collection">
+        <div class="collection__breadcrumb breadcrumb">
+            <a href="index.html" class="breadcrumb__link">Home</a>
+            <a href="collection.html" class="breadcrumb__link">Posts</a>
+        </div>
+        <div class="collection__post">
+            <figure class="collection__figure">
+                <img src="assets/img/bem.jpg" alt="BEM" class="collection__img" />
+            </figure>
+            <div class="collection__about">
+                <a href="article.html" class="collection__title">Boas práticas da metodologia BEM</a>
+                <p class="collection__date">25/10/2021</p>
+                <span class="collection__tag">CSS</span>
+            </div>
+        </div>
+        <div class="collection__post half">
+            <figure class="collection__figure">
+                <img src="assets/img/css-grids.jpg" alt="GRID" class="collection__img" />
+            </figure>
+            <div class="collection__about">
+                <a href="article.html" class="collection__title half">Projetos com CSS Grid</a>
+                <p class="collection__date">20/10/2021</p>
+                <span class="collection__tag">CSS</span>
+            </div>
+        </div>
+        <div class="collection__post half">
+            <figure class="collection__figure">
+                <img src="assets/img/javascript.png" alt="JavaScript" class="collection__img" />
+            </figure>
+            <div class="collection__about">
+                <a href="article.html" class="collection__title half">Iniciando com JavaScript: Primeiros Passos</a>
+                <p class="collection__date">20/09/2021</p>
+                <span class="collection__tag">JS</span>
+            </div>
+        </div>
+        <div class="collection__post">
+            <figure class="collection__figure">
+                <img src="assets/img/sass.jpg" alt="Cachorro oculos" class="collection__img" />
+            </figure>
+            <div class="collection__about">
+                <a href="article.html" class="collection__title">Tudo sobre Scss e sua estrutura</a>
+                <p class="collection__date">20/08/2021</p>
+                <span class="collection__tag">CSS</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <img src="assets/img/footer-logo.png" alt="Footer logo" class="footer__logo" />
+        <p class="footer__txt">2021 N+ Sass Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
